@@ -1,0 +1,95 @@
+[0.172s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/littsk/parallel_cpp']
+[0.172s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/littsk/parallel_cpp'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffffafeea160>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffffafeea160>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffafe1bac0>)
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.205s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.205s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/littsk/parallel_cpp'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/log) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/log) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/log) ignored
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extensions ['cmake', 'python']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/src) by extension 'python'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package '/home/littsk/parallel_cpp/src' with type 'cmake' and name 'thread_tutorial'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extension 'ros'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extensions ['cmake', 'python']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extension 'cmake'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extension 'python'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extension 'ros'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extensions ['cmake', 'python']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extension 'cmake'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extension 'python'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extensions ['python_setup_py']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources) by extension 'python_setup_py'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(/home/littsk/parallel_cpp/test.dSYM/Contents/Resources/DWARF) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
